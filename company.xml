@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part company_logo module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="company_view_form">
+            <field name="model">company.company</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="company.company_view_form"/>
+            <field name="arch" type="xml">
+                <![CDATA[
+                <data>
+                    <xpath
+                        expr="/form/notebook/page[@id='reports']"
+                        position="inside">
+                        <separator name="logo"/>
+                        <field name="logo" widget="image"/>
+                    </xpath>
+                </data>
+                ]]>
+            </field>
+        </record>
+    </data>
+</tryton>
