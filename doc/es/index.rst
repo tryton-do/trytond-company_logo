@@ -4,14 +4,15 @@ Logo de empresa
 
 Añade el logo de la empresa como un campo binario.
 
-Módulos que dependen
-====================
+Módulos de los que depende
+==========================
 
 Instalados
 ----------
 
 .. toctree::
    :maxdepth: 1
+
    /company/index
    /currency/index
    /party/index
