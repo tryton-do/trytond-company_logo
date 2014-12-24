@@ -10,5 +10,4 @@ __metaclass__ = PoolMeta
 
 class Company:
     __name__ = 'company.company'
-
     logo = fields.Binary('Logo')

@@ -4,8 +4,7 @@
 from trytond.pool import Pool
 from .company import *
 
-
 def register():
     Pool.register(
         Company,
-        module='company', type_='model')
+        module='company_logo', type_='model')

@@ -1,4 +1,4 @@
-Installing trytond_company_logo
+Installing trytond-company_logo
 ===============================
 
 Prerequisites
@@ -13,7 +13,7 @@ Prerequisites
 Installation
 ------------
 
-Once you've downloaded and unpacked the trytond_company_logo source release, 
+Once you've downloaded and unpacked the trytond-company_logo source release, 
 enter the directory where the archive was unpacked, and run:
 
     python setup.py install
